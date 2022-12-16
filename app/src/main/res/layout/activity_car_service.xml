@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".CarService">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Car Service"
+            android:textColor="#db5a6b"
+            android:textSize="30sp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="75dp"
+
+            />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#a6ab66"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Car Service"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="KSH.8,000/="
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:background="#a29088"
+            android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+            android:text="add to cart "
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#a6ab66"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Oil Change"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="KSH.6,000/="
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:background="#a29088"
+                android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                android:text="add to cart "
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#a6ab66"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:text="Plugs Replacement"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="KSH.5,000/="
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="0dp"
+                />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:background="#a29088"
+                android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                android:text="add to cart "
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#a6ab66"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Brake fluid"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="KSH.5,000/="
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:background="#a29088"
+                android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                android:text="add to cart "
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#a6ab66"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Oil Filter"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="KSH.4,000/="
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:background="#a29088"
+                android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                android:text="add to cart "
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#a6ab66"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Air Filter"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="KSH.5,000/="
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:background="#a29088"
+                android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                android:text="add to cart "
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".fragments.DashboardFragment"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="@string/carzi_kwanza"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="188dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                android:src="@drawable/dashpic2"
+                 />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Press on the service you want:"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="183dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/round_corner"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/carservice1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="183dp"
+            android:layout_height="38dp"
+            android:background="#00FFFFFF"
+            android:text="Car service"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            />
+
+        <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="183dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/breakdown" />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:background="#00FFFFFF"
+            android:layout_marginStart="100dp"
+            android:text="Car Recovery Services"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            />
+
+        <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="183dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="100dp"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/car_wash" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="183dp"
+            android:layout_height="37dp"
+            android:background="#00FFFFFF"
+            android:text="Car Wash"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="183dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button6"
+                app:srcCompat="@drawable/alignment" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="183dp"
+                android:layout_height="37dp"
+                android:background="#00FFFFFF"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="100dp"
+                android:text="Tire Services"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

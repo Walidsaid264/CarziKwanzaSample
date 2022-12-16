@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PaymentWall">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Confirm your Order"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="75dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Choose payment option:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="60dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:background="#f2f5df"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            >
+
+
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/m_pesa"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"/>
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/visa"
+                android:background="@drawable/round_corner"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="Order Summary:"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="75dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:background="#f2f5df"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            >
+            <TextView
+                android:id="@+id/check1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/check"
+                android:text="Full Car-Wash               KES4000.00"
+                android:textColor="#000"
+                android:textSize="10sp"
+
+                />
+            <TextView
+                android:id="@+id/check2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/check"
+                android:text="Air Freshener               KES350.00"
+                android:textColor="#000"
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/check3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/check"
+                android:text="Air Filter                  KES2000.00"
+                android:textColor="#000"
+                android:textSize="10sp"
+                />
+            <TextView
+                android:id="@+id/check4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:drawableLeft="@drawable/check"
+                android:textStyle="bold"
+                android:text="Total                   KES6,350.00"
+                android:textColor="#000"
+                android:textSize="10sp"
+                />
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/textInputLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="Date of Delivery"
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etChooseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="Choose the time"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Time of Delivery"
+            app:boxStrokeColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="HardcodedText">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etChooseTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="Choose the time"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:textSize="10sp"
+            android:text="Proceed to Payment"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/packages"
+        android:icon="@drawable/ic_info"
+        android:title="Packages"/>
+    <item
+        android:id="@+id/checkout"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="CheckOut"/>
+
+    <item
+        android:id="@+id/ic_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+</menu>

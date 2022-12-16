@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CarziKwanza</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="carzi_kwanza">CARZI KWANZA</string>
+    <string-array name="menu">
+        <item>Walid Saidi </item>
+        <item>Home</item>
+        <item>Packages</item>
+        <item>SignIn</item>
+        <item>Booking</item>
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>History</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dashboard">Dashboard</string>
+    <string name="my_profile">My Profile</string>
+    <string name="packages">Packages</string>
+    <string name="settings">Settings</string>
+    <string name="nairobi">Nairobi</string>
+    <string name="number">+254705268892</string>
+    <string name="phone_number">Phone number</string>
+    <string name="todo">TODO</string>
+    <string name="gender">Gender</string>
+    <string name="gender2">Male</string>
+    <string name="walid_saidi">Walid Saidi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

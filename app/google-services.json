@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918771542894",
+    "project_id": "carzi-kwanza",
+    "storage_bucket": "carzi-kwanza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918771542894:android:781f3caffd5d4497e3af7f",
+        "android_client_info": {
+          "package_name": "com.example.carzikwanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918771542894-imb7vi5jgi85ofjoe21claef81f9so91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiDv3eL2qZuE4FTRFN8oRbDBIUxIRX620"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918771542894-imb7vi5jgi85ofjoe21claef81f9so91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
